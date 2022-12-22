@@ -11,7 +11,10 @@ if (num1>num2)
 {
     Console.WriteLine("Первое число больше второго");
 }
-else 
+else if (num1<num2)
 {
     Console.WriteLine("Второе число больше первого");
+    num1++;
 }
+else 
+Console.WriteLine("Второе число равно первому числу");
